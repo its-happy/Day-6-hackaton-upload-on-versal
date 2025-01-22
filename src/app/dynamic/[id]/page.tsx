@@ -78,7 +78,7 @@ function FetchProductDetails({ params }: { params: Promise<any> }) {
       <div className="p-10 text-center">
         <h1 className="text-2xl font-bold text-red-600">Data Not Found</h1>
         <p className="text-gray-600 mt-4">We couldn't find the data you're looking for.</p>
-        <a href="/products" className="mt-6 text-blue-500 underline">
+        <a href="/new" className="mt-6 text-blue-500 underline">
           Back to Products Page
         </a>
       </div>
